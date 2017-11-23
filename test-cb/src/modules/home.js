@@ -1,5 +1,5 @@
 import React from 'react'
-import Language from '../components/Language'
+import MenuItem from '../components/MenuItem'
 
 const Home = props => {
   console.log(props)
@@ -7,11 +7,7 @@ const Home = props => {
     <div >
       {props.componists.map(stylePeriod => (
         <div>
-          <h1 style={{color: 'red'}}>{stylePeriod.name}</h1>
-          {stylePeriod.items.map(language => (
-            <Language language={language} />
-          )
-          )}
+          <MenuItem items={stylePeriod.items} name={stylePeriod.name} />
         </div>
       ))
       }
