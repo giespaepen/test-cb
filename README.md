@@ -14,10 +14,10 @@
 ### Requirements
 The test code should contain:
 
-[ ] Javascript code
-[ ] Css
-[ ] Html
-[ ] Technology
+- [ ] Javascript code
+- [ ] Css
+- [ ] Html
+- [ ] Technology
 
 The structure, frameworks/libraries used are free of choice. 
 
