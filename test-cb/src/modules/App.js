@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeContainer from './homeContainer'
+import ComponistContainer from './componistsContainer'
 
 import {
   BrowserRouter as Router,
@@ -17,6 +18,8 @@ const App = () => (
       <hr />
 
       <Route exact path='/' component={HomeContainer} />
+      <Route path='/:id' component={ComponistContainer} />
+
     </div>
   </Router>
 )
